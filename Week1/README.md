@@ -461,11 +461,16 @@ plt.show()
 
 ### 🟡 Task 1: Data Preprocessing
 
-1️⃣ **Load the Dataset:** Read the CSV into a Pandas DataFrame.  
-2️⃣ **Select Data for a Specific Country** of your choice.  
-3️⃣ **Convert Date to Datetime** and filter from **1900 onward**.  
-4️⃣ **Handle Missing Values:** Decide on a strategy (`drop`, `interpolate`, or `fill`).  
-5️⃣ **Create a New Column** for the **average yearly temperature per country**.  
+1️⃣ Load the dataset into a Pandas DataFrame.
+
+2️⃣	Select data from a specific country of your choice.
+
+3️⃣	Convert the date column to a datetime format and filter for data from the year 1900 onward.
+
+4️⃣	Handle missing values: Decide on an appropriate strategy (e.g., drop, interpolate, or fill).
+
+5️⃣	Create a new column for the average yearly temperature per country
+
 ---
 
 ### 🟠 Task 2: Data Visualisation
