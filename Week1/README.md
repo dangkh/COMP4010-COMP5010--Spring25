@@ -130,9 +130,10 @@ To ensure Jupyter is running from your virtual environment:
 
 Run this code in a new notebook cell:
 
-python
+```
 
 import sys
+```
 
 print(sys.executable)
 
@@ -213,8 +214,9 @@ Part 1: Setting Up
 
 Import Required Libraries:
 
-python
+```
 
+```
 
 
 import pandas as pd
@@ -225,8 +227,9 @@ import seaborn as sns
 
 Load Dataset: We'll use a simple dataset, like a CSV of monthly sales or temperature data.
 
-python
+```
 
+```
 
 
 # Example dataset
@@ -251,8 +254,9 @@ Part 2: Creating Basic Charts
 
 Bar Chart: Monthly Sales
 
-python
+```
 
+```
 
 
 plt.figure(figsize=(8, 5))
@@ -265,8 +269,9 @@ plt.show()
 
 Line Chart: Temperature Over Time
 
-python
+```
 
+```
 
 
 plt.figure(figsize=(8, 5))
@@ -279,8 +284,9 @@ plt.show()
 
 Scatter Plot: Sales vs. Temperature
 
-python
+```
 
+```
 
 
 plt.figure(figsize=(8, 5))
@@ -297,8 +303,9 @@ Part 3: Identifying and Correcting Bad Visualisations
 
 Truncated Y-Axis Example:
 
-python
+```
 
+```
 
 
 plt.figure(figsize=(8, 5))
@@ -315,8 +322,9 @@ Task: Identify how the truncated Y-axis exaggerates differences. Correct it by r
 
 Overloaded Chart Example:
 
-python
+```
 
+```
 
 
 plt.figure(figsize=(8, 5))
@@ -335,8 +343,9 @@ Task: Explain why this chart might be confusing. Suggest improvements, such as u
 
 Misleading Pie Chart Example:
 
-python
+```
 
+```
 
 
 pie_data = [30, 40, 35]
@@ -362,8 +371,9 @@ Task 1: Adding Details and Annotations to Charts
 
 Enhance the Bar Chart with Customisation:
 
-python
+```
 
+```
 
 
 plt.figure(figsize=(8, 5))
@@ -392,8 +402,9 @@ plt.show()
 
 Customise the Line Chart with Styles:
 
-python
+```
 
+```
 
 
 plt.figure(figsize=(8, 5))
@@ -428,8 +439,9 @@ Task 2: Combining Multiple Charts
 
 Create Subplots to Compare Sales and Temperature:
 
-python
+```
 
+```
 
 
 fig, ax = plt.subplots(2, 1, figsize=(10, 8))
@@ -454,8 +466,9 @@ plt.show()
 
 Overlay Line and Bar Charts:
 
-python
+```
 
+```
 
 
 fig, ax1 = plt.subplots(figsize=(8, 5))
@@ -494,8 +507,9 @@ Dataset: COVID-19 Global Data
 
 Download the dataset directly in Jupyter Notebook:
 
-python
+```
 
+```
 
 
 url = 'https://covid.ourworldindata.org/data/owid-covid-data.csv'
@@ -506,8 +520,9 @@ covid_df.head()
 
 Filter Data for a Specific Country (e.g., Vietnam):
 
-python
+```
 
+```
 
 
 vietnam_df = covid_df[covid_df['location'] == 'Vietnam']
@@ -520,8 +535,9 @@ vietnam_df.head()
 
 Visualise New COVID-19 Cases Over Time:
 
-python
+```
 
+```
 
 
 plt.figure(figsize=(12, 6))
@@ -538,8 +554,9 @@ plt.show()
 
 Compare New Cases and New Deaths with Dual Axes:
 
-python
+```
 
+```
 
 
 fig, ax1 = plt.subplots(figsize=(12, 6))
