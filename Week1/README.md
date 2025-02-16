@@ -1,6 +1,34 @@
-# Combined Week 1 - Lab Exercise and Assignment
 
-## Section 1: Week 1 – Lab Exercise
+# 🧪 Combined Week 1 - Lab Exercise and Assignment
+
+---
+
+
+# 📑 Table of Contents
+
+- [Section 1: Week 1 – Lab Exercise](#section-1-week-1--lab-exercise)
+  - [Part 1: Setting Up](#part-1-setting-up)
+  - [Part 2: Creating Basic Charts](#part-2-creating-basic-charts)
+  - [Part 3: Identifying and Correcting Bad Visualisations](#part-3-identifying-and-correcting-bad-visualisations)
+  - [Part 4: Working with a Larger Dataset](#part-4-working-with-a-larger-dataset)
+  - [Part 5: Reflection Questions](#part-5-reflection-questions)
+
+- [Section 2: Week 1 – Lab Assignment](#section-2-week-1--lab-assignment)
+  - [Task 1: Data Preprocessing](#task-1-data-preprocessing)
+  - [Task 2: Data Visualisation](#task-2-data-visualisation)
+  - [Task 3: Extreme Weather Events Analysis](#task-3-extreme-weather-events-analysis)
+  - [Task 4: Investigate Correlation with CO₂ Emissions](#task-4-investigate-correlation-with-co₂-emissions)
+  - [Submission Guidelines](#submission-guidelines)
+
+---
+
+
+---
+
+## 🟡 Section 1: Week 1 – Lab Exercise
+
+### Part 1: Setting Up
+Below is a structured guide to set up your Python and Jupyter environment for visualisations.
 
 # Week 1 – Lab Exercise
 
@@ -561,7 +589,12 @@ What difficulties did you face when working with the COVID-19 dataset? How did y
 
 
 
-## Section 2: Week 1 – Lab Assignment
+---
+
+## 🟠 Section 2: Week 1 – Lab Assignment
+
+### Task Overview
+This section contains all tasks and submission guidelines for the Week 1 lab assignment.
 
 # Week 1 – Lab Assignment
 
@@ -695,3 +728,12 @@ Upload your .ipynb file to Canvas before the deadline.
 
 
 
+
+
+---
+
+## ✅ Final Notes
+- Complete the tasks and ensure your Jupyter Notebook is well-documented.
+- Follow all submission guidelines carefully.
+
+---
