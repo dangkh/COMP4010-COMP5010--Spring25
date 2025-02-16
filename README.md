@@ -31,7 +31,7 @@ For each week, read through the notes before attempting the weekly AE.
 
 | Week | Topic | Notes | |
 | --- | --- | --- | --- |
-| 01 | Setting up Python Environment and Creating and Evaluating Data Visualisations with Python | [Notes](Week%201/README.md) ||
+| 01 | Setting up Python Environment and Creating and Evaluating Data Visualisations with Python | [Notes](Week1/README.md) ||
 | 02 | 
 | 03 | 
 | 04 | 
