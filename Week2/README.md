@@ -4,18 +4,18 @@
 
 # 📑 Table of Contents
 
-- [Section 1: Week 2 – Lab Exercise](#section-1-week-2--lab-exercise)
-  - [Part 1: Working with a Simple DataFrame](#part-1-working-with-a-simple-dataframe)
-  - [Part 2: Working with Real-World Datasets](#part-2-working-with-real-world-datasets)
-  - [Part 3: Visualisation Using Pandas DataFrames](#part-3-visualisation-using-pandas-dataframes)
+- [Section 1: Week 2 – Lab Exercise](#section-1-week-2–-lab-exercise)
+  - [Part 1: Working with a Simple DataFrame (Q1 - Q5)](#part-1-working-with-a-simple-dataframe-q1---q5)
+  - [Part 2: Working with Real-World Datasets (Q6 - Q15)](#part-2-working-with-real-world-datasets-q6---q15)
+  - [Part 3: Visualisation Using Pandas DataFrames (Q16 - Q20)](#part-3-visualisation-using-pandas-dataframes-q16---q20)
 
-- [Section 2: Week 2 – Lab Assignment](#section-2-week-2--lab-assignment)
-  - [Task 1: Data Cleaning & Exploration](#task-1-data-cleaning--exploration)
-  - [Task 2: Aggregation & Filtering](#task-2-aggregation--filtering)
-  - [Task 3: Advanced Data Processing](#task-3-advanced-data-processing)
-  - [Task 4: Data Visualisation](#task-4-data-visualisation)
-  - [Submission Guidelines](#submission-guidelines)
-
+- [Section 2: Week 2 – Lab Assignment](#section-2-week-2–--lab-assignment)
+  - [Part 1️: Data Cleaning & Exploration](#part-1️-data-cleaning--exploration)
+  - [Part 2️: Aggregation & Filtering](#part-2️-aggregation--filtering)
+  - [Part 3️: Advanced Data Processing](#part-3️-advanced-data-processing)
+  - [Part 4: Data Visualisation (Q7 - Q9)](#part-4-data-visualisation-q7---q9)
+  - [Submission Guidelines](#-submission-guidelines)
+  
 ---
 
 # 🏋 Section 1: Week 2 – Lab Exercise
@@ -429,7 +429,8 @@ ________________________________________
 
 ________________________________________
 
-## 🔹 Part 3️ Advanced Data Processing
+## 🔹 Part 3: Advanced Data Processing
+
 💡 Objective: Apply transformations and enhance the dataset.
 
 ### **Q5. Add a new column that shows percentage change in a key metric year-over-year**
