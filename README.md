@@ -29,9 +29,9 @@ To get started, you will need to install R and RStudio:
 
 For each week, read through the notes before attempting the weekly AE.
 
-| Week | Topic | Notes | R Markdown |
+| Week | Topic | Notes | |
 | --- | --- | --- | --- |
-| 01 | Setting up Python Environment and Creating and Evaluating Data Visualisations with Python | [Notes](Week%201/Week1-AE-Notes.md) | [Rmd](Week%201/Week1-AE-RMarkdown.Rmd) |
+| 01 | Setting up Python Environment and Creating and Evaluating Data Visualisations with Python | [Notes](Week1/README.md) ||
 | 02 | 
 | 03 | 
 | 04 | 
