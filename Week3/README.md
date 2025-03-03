@@ -10,7 +10,9 @@
   - [Dataset](#datasets)
   - [Tasks 1](#text-preprocessing)
   - [Tasks 2](#text-representation)
-  - [Tasks 4](#visualization-2-relationship-between-review-scores-and-word-usage)
+  - [Tasks 3](#text-representation)
+  - [Tasks 4](#text-representation)
+  - [Tasks 5](#visualization-2-relationship-between-review-scores-and-word-usage)
   - [Submission Guidelines](#submission-guidelines)
   
   
