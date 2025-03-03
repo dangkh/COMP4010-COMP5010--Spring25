@@ -25,7 +25,6 @@ To get started, you will need to install R and RStudio:
 | Homework1 | [Notes](Homework/Homework1) | [Ikea](Homework/Homework1/ikea_data.csv)| 11/03/2025|
 | The rest! |
 
-
 ## Weekly Exercises (AE)
 
 For each week, read through the notes before attempting the weekly AE.
