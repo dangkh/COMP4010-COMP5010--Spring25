@@ -19,6 +19,12 @@ To get started, you will need to install R and RStudio:
 - [COMP4010 Canvas](https://vinuni.instructure.com/courses/2514)
 - [COMP5120 Canvas](https://vinuni.instructure.com/courses/2529)
 
+## PhD Problem Sets
+| Weeks | Problem Set | Dataset | Deadline |
+| --- | --- | --- | --- |
+| Task1 | [Notes](PhD/Task1) | | |
+| The rest! |
+
 ## Homework Problem Sets
 | Weeks | Problem Set | Dataset | Deadline |
 | --- | --- | --- | --- |
