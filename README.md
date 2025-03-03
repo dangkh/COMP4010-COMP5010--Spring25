@@ -22,7 +22,7 @@ To get started, you will need to install R and RStudio:
 ## PhD Problem Sets
 | Weeks | Problem Set | Dataset | Deadline |
 | --- | --- | --- | --- |
-| Task1 | [Notes](PhD/Task1) | | |
+| Task1 | [Notes](PhD/Task1) | [Ikea](PhD/Task1/ikea_data.csv)|11/03/2025 |
 | The rest! |
 
 ## Homework Problem Sets
