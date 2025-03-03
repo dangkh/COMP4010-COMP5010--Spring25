@@ -32,8 +32,8 @@ For each week, read through the notes before attempting the weekly AE.
 | Week | Topic | Notes | |
 | --- | --- | --- | --- |
 | 01 | Setting up Python Environment and Creating and Evaluating Data Visualisations with Python | [Notes](Week1/README.md) ||
-| 02 | 
-| 03 | 
+| 02 | Practicing Pandas | [Notes](Week2/README.md) ||
+| 03 | Using spaCy to process and clean text data, then visualise word frequencies and word clouds using Seaborn and WordCloud| [Notes](Week3/README.md) ||
 | 04 | 
 | 05 | 
 | 06 | 
