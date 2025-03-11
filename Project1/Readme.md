@@ -49,7 +49,7 @@ Your proposal should include:
 - The two questions you want to answer.
 - A plan for answering each question, including the involved variables and any external data to be merged.
 
-**Expected output:**
+*Expected output:*
 
 - Create a public repository on GitHub.
 - Upload your proposal and data to the repository (proposal can be a .md file).
@@ -66,7 +66,7 @@ Each team will review the proposals of two other teams. We will assign review pa
 - Title the issue: `Peer review for proposal - [Your group name]`.
 - Provide 2-3 constructive suggestions.
 
-**Expected output:**
+📌Expected output:
 
 - Create two issues on the repositories of the teams assigned to you.
 - Submit links to the issues on Canvas.
@@ -75,7 +75,7 @@ Each team will review the proposals of two other teams. We will assign review pa
 
 After receiving feedback, update your proposal and make necessary revisions.
 
-**Expected output:**
+📌Expected output:
 
 - Commits and comments addressing the issues raised.
 - Submit the final version of the proposal on Canvas (PDF format).
@@ -94,7 +94,7 @@ The write-up consists of three parts:
 3. **Question 2 Analysis:** Same structure as Question 1.
 4. **Conclusion:** Summary of findings and next steps.
 
-**Expected output:**
+📌 Expected output:
 
 - Submit the report on Canvas in Jupyter Notebook and PDF format.
 - Ensure the report is well-documented and reproducible.
@@ -103,7 +103,7 @@ The write-up consists of three parts:
 
 Each team will give an **8-minute presentation**, followed by **Q&A**. The session will last **15 minutes** in total.
 
-**Expected output:**
+*Expected output:*
 
 - Submit slides on Canvas (PDF or PPT format).
 - Deliver an in-class presentation with a Q&A session.
