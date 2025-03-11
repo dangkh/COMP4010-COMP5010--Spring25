@@ -1,21 +1,21 @@
 # COMP4010/5120: Data Visualization - Spring 2025
 
-## Instruction for Project 1
+# Instruction for Project 1
 
-### 1. Project Details
+## 1. Project Details
 
 The goal of this project is to apply what you have learned throughout the semester to solve a real-world problem. Students will be assigned in teams of three members per team.
 
 In this project, you will be given a list of datasets and your team will pick the one that interests you the most. The project will be completed over the first half of the semester and will account for 20% of your final score.
 
-### 2. Project Timeline
+## 2. Project Timeline
 
 - **Week 1 (12/03 - 18/03):** Discuss with your team to choose a suitable dataset and write your proposal.
 - **Week 2 (19/03 - 25/03):** Provide peer reviews to two other teams as issues on their GitHub repos. Address issues raised on your team’s project repo through explicit commits. Start working on coding, presentation, and report.
 - **Week 3 (26/03 - 31/03):** Review feedback from the teaching team on your proposal and continue working on deliverables.
 - **Week 4 (01/04 - 10/04):** Finalize your report and presentation, and clean up code files.
 
-### 3. Deadlines
+## 3. Deadlines
 
 There are four important milestones for this project:
 
@@ -24,9 +24,9 @@ There are four important milestones for this project:
 - **31/03:** Resubmit the revised proposal based on peer reviews and resolve the issues raised.
 - **10/04:** Submit the project package, including presentation slides, write-up, and code files.
 
-### 4. Deliverables
+## 4. Deliverables
 
-#### 4.1 Project Questions
+### 4.1 Project Questions
 
 The project is open-ended. The first step is selecting a dataset from the TidyTuesday project repository. The dataset must meet these requirements:
 
@@ -38,9 +38,9 @@ After selecting the dataset, you need to formulate two questions for analysis:
 - Each question should involve at least three variables.
 - The two questions should not use a completely overlapping set of variables.
 
-#### 4.2 Details on Deliverables
+### 4.2 Details on Deliverables
 
-##### **Proposal - Due 18th of March**
+#### **Proposal - Due 18th of March**
 
 Your proposal should include:
 
@@ -55,7 +55,7 @@ Your proposal should include:
 - Upload your proposal and data to the repository (proposal can be a .md file).
 - Submit the repository link on Canvas.
 
-##### **Peer Review - Due 25th of March**
+#### **Peer Review - Due 25th of March**
 
 Each team will review the proposals of two other teams. We will assign review pairs (see Section 6.3 of this document).
 
@@ -71,7 +71,7 @@ Each team will review the proposals of two other teams. We will assign review pa
 - Create two issues on the repositories of the teams assigned to you.
 - Submit links to the issues on Canvas.
 
-##### **Revised Proposal - Due 31st of March**
+#### **Revised Proposal - Due 31st of March**
 
 After receiving feedback, update your proposal and make necessary revisions.
 
@@ -81,7 +81,7 @@ After receiving feedback, update your proposal and make necessary revisions.
 - Submit the final version of the proposal on Canvas (PDF format).
 - Submit links to addressed issues on your repository.
 
-##### **Write-up - Due 10th of April**
+#### **Write-up - Due 10th of April**
 
 The write-up consists of three parts:
 
@@ -99,7 +99,7 @@ The write-up consists of three parts:
 - Submit the report on Canvas in Jupyter Notebook and PDF format.
 - Ensure the report is well-documented and reproducible.
 
-##### **Presentation - Slides Due 10th of April, Oral Presentation in the Following Week**
+#### **Presentation - Slides Due 10th of April, Oral Presentation in the Following Week**
 
 Each team will give an **8-minute presentation**, followed by **Q&A**. The session will last **15 minutes** in total.
 
@@ -108,7 +108,7 @@ Each team will give an **8-minute presentation**, followed by **Q&A**. The sessi
 - Submit slides on Canvas (PDF or PPT format).
 - Deliver an in-class presentation with a Q&A session.
 
-### 5. Grading
+## 5. Grading
 
 | Category              | Points  | Percentage |
 |----------------------|---------|------------|
