@@ -71,7 +71,7 @@ Each team will review the proposals of two other teams. We will assign review pa
 - Create two issues on the repositories of the teams assigned to you.
 - Submit links to the issues on Canvas.
 
-#### **Revised Proposal - Due 31st of March**
+#### **📌Revised Proposal - Due 31st of March**
 
 After receiving feedback, update your proposal and make necessary revisions.
 
