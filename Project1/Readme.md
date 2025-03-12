@@ -140,3 +140,63 @@ The marking scheme will be provided on the Canvas assignment page of each assess
 ### PROJECT01-5 
 - Mai Tuan Minh
 - Tran Trung Duc
+
+### PROJECT01-6
+- Le Gia Duc
+- Samantha Emma Morris
+- Vo Khoi Thanh Lam
+
+### PROJECT01-7
+- Cao Lam Huy
+- Dang Duc Dat
+- Nguyen Canh Huy
+
+### PROJECT01-8
+- Thai Minh Dung
+- Tran Khanh Bang
+- Truong Dang Gia Huy
+
+### PROJECT01-9
+- Nguyen Hoang Long
+- Nguyen Tuan Hiep
+- Vu Ai Thanh
+
+### PROJECT01-10
+- Nguyen Nhat Minh
+- Nguyen Truong Tung
+- Nguyen Tung Lam
+
+### PROJECT01-11
+- Can Ha An
+- Dao Chi Tuong
+- Luu Nguyen Chi Duc
+
+### PROJECT01-12
+- Bui Huy Linh Phuc
+- Dang Dinh Dang Khoa
+- Ha Minh Dung
+
+### PROJECT01-13
+- Thai Ba Hung
+- Tran Le Hai
+- Trinh Tuan Hung
+
+### PROJECT01-14
+- Ekaterina Balashova
+- Le Nguyen Gia Binh
+- Vuong Chi Hao
+
+### PROJECT01-15
+- Nguyen Hoang Son
+- Tran Hung Dat
+- Tran Tat Hung
+
+### PROJECT01-16
+- Chau Minh Khai
+- Nguyen Tuan Anh
+- Ta Viet Thang
+
+### PROJECT01-17
+- Nguyen Mau Hoang Hiep
+- Pham Minh Hieu
+- Phan Thi Hien Chi
