@@ -121,22 +121,22 @@ Each team will give an **8-minute presentation**, followed by **Q&A**. The sessi
 
 The marking scheme will be provided on the Canvas assignment page of each assessment.
 ## 6. Group
-### PROJECT01 1 students
+### PROJECT01-1 
 - Pham Quoc Cuong
 - Phan Minh Tri
 
-### PROJECT01 2 students
+### PROJECT01-2 
 - Le Minh Huyen
 - Vu Tuyet Vy
 
-### PROJECT01 3 students
+### PROJECT01-3 
 - Ta Quang Hieu
 - Nguyen Tien Dong
 
-### PROJECT01 4 students
+### PROJECT01-4 
 - Doan Quang Hung
 - Ngo Sy Trung
 
-### PROJECT01 5 students
+### PROJECT01-5 
 - Mai Tuan Minh
 - Tran Trung Duc
