@@ -136,7 +136,7 @@ Use the 🔗 [Amazon Fine Food Reviews](https://www.kaggle.com/datasets/snap/ama
 
 
 ---
-### TBD
+### Please check the detail of Week 4 assignment [here](https://github.com/dangkh/COMP4010-COMP5010--Spring25/blob/master/Week4/week4_lab_assignments.docx): 
 
 ### 🚀 Submission Guidelines
 
