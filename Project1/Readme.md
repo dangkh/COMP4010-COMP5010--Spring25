@@ -28,7 +28,7 @@ There are four important milestones for this project:
 
 ### 4.1 Project Questions
 
-The project is open-ended. The first step is selecting a dataset from the TidyTuesday project repository. The dataset must meet these requirements:
+The project is open-ended. The first step is selecting a dataset from the [TidyTuesday](https://github.com/rfordatascience/tidytuesday) project repository. The dataset must meet these requirements:
 
 - Published after 2023.
 - Contains both numerical and categorical variables.
