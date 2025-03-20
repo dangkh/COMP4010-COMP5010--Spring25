@@ -188,7 +188,7 @@ Once you complete the exercise, move on to solving the assignment 🚀.
 ### 🚀 Submission Guidelines
 
 📌 Ensure your Jupyter Notebook includes **all required charts and explanations**  
-📂 **File Format:** `Week4_lab_assignment_YourID.ipynb`  
+📂 **File Format:** `Week5_lab_assignment_YourID.ipynb`  
 📤 **Upload to:** Canvas **before the deadline**.  
 
 ---
