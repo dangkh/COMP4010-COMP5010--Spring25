@@ -148,7 +148,7 @@ The marking scheme will be provided on the Canvas assignment page of each assess
 
 ### PROJECT01-7
 - Cao Lam Huy
-- Dang Duc Dat
+- 
 - Nguyen Canh Huy
 
 ### PROJECT01-8
@@ -179,7 +179,7 @@ The marking scheme will be provided on the Canvas assignment page of each assess
 ### PROJECT01-13
 - Thai Ba Hung
 - Tran Le Hai
-- Trinh Tuan Hung
+- Dang Duc Dat
 
 ### PROJECT01-14
 - Ekaterina Balashova
