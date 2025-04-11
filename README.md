@@ -23,8 +23,8 @@ To get started, you will need to install R and RStudio:
 | Weeks | Problem Set | Dataset | Deadline |
 | --- | --- | --- | --- |
 | Homework1 | [Notes](Homework/Homework1) | [Ikea](Homework/Homework1/ikea_data.csv)| 11/03/2025|
+| Homework2 | [Notes](Homework/Homework2) | [Data]([Homework/Homework1/ikea_data.csv](https://github.com/dangkh/COMP4010-COMP5010--Spring25/tree/master/Homework/Homework2))| 18/04/2025|
 | The rest! |
-
 ## Weekly Exercises (AE)
 
 For each week, read through the notes before attempting the weekly AE.
