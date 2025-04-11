@@ -2,7 +2,8 @@
 
 # COMP4010/5120 Data Visualization - Homework 2 Question Set
 
-This assignment introduces you to a new type of plot called [ridgeline plot](https://www.data-to-viz.com/graph/ridgeline.html), and also require you to apply the skills you have learned so far in the course. We will be using fictional VinUni enrolment data, plus some Vietnam population data to construct a [population pyramid plot](https://education.nationalgeographic.org/resource/population-pyramid/). 
+This assignment introduces you to a new type of plot called [ridgeline plot](https://www.data-to-viz.com/graph/ridgeline.html), and also require you to apply the skills you have learned so far in the course. Suppose we have a fictional dataset of enrolment at VinUni from the year 2105 to 2125. We will be using this fictional enrolment data, plus some Vietnam population data to construct a [population pyramid plot](https://education.nationalgeographic.org/resource/population-pyramid/). 
+
 
 # Submission requirements
 
