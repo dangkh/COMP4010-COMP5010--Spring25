@@ -102,16 +102,15 @@ The expected output of this task include:
 
 Your proposal should include:
 
-- A one sentence description of your high-level goal (such as the ones listed above).
-- A one to two paragraph description of your goals, including your motivation. Please explain why this project is interesting, what problems can it solve? 
+1. A one sentence description of your high-level goal (such as the ones listed above).
+2. A one to two paragraph description of your goals, including your motivation. Please explain why this project is interesting, what problems can it solve? 
 
 Depending on the focus of your project, the following might go in here:
    - If answering a particular research question, the question itself and the reason why you chose this question.
-   - If you crawl a new dataset and plan to visualize it, explain how you collect the
-data, why you choose to tackle this problem and any other relevant metadata. 
+   - If you crawl a new dataset and plan to visualize it, explain how you collect the data, why you choose to tackle this problem and any other relevant metadata. 
 
-- A weekly plan outlining your steps to complete your project and including the team member(s) assigned to that task.
-- A github repo, with all the relevant info about your project
+3. A weekly plan outlining your steps to complete your project and including the team member(s) assigned to that task.
+4. A github repo, with all the relevant info about your project
 
 The expected output of this phases include:
 - Create a public repository on Github
