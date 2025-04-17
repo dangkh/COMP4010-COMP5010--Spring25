@@ -41,37 +41,7 @@ And, of course, your project can be about visualizing a dataset of interest to y
 
 ### 4.2 Details on Deliverables
 
-4.2 Details on deliverables
-Proposal - Due 25th of April
 
-
-Peer Review - Due 5th of May
-Each team will review the proposals of two other teams. We will assign which teams that you
-have to write the reviews for (check section 6.3 of this document)
-Teams will develop the review together, with discussion among all team members, but only
-one team member will submit it as an issue on the project repo. To do so, go to the Issues
-tab, click on the green New issue button on the top right.
-The title of the issue should be “Peer review for proposal - [Your group name]”, and you
-should point out 2-3 problems or suggestions for your friends to improve their work.
-Remember, your goal is to help the team whose project proposal you’re reviewing. The team
-will not lose points because of issues you point out, as long as they address them before I
-review their proposals. You should be critical, but respectful in your review. Also remember
-that you will be evaluated on the quality of your review. So that’s an additional incentive to do
-a good job.
-The expected output of this phases include:
-- Create 2 issues on the repositories of each of the 2 teams you are assigned to
-review
-- Submit links to the issues you have created on your classmates’ repos
-Replies to your feedback - Due 12th of May
-Once you receive feedback from your peers, you should address them. You should do this
-by directly updating your proposal or making any other updates to your repo as needed.
-After addressing the feedback, you should also wrap up your updates with a comment,
-detailing on how you are going to fix the problems/suggestions made by your friends.
-The expected output of this phases include:
-- Commits and comments on the repositories to address the issues your peers point
-out
-- (Optional) Revise your proposal and TAs will give you feedback on the new version,
-but this task is not graded
 Write-up - Due 2nd of June
 Your have a lot more freedom in how you structure your write-up for this project compared to
 Project 1. This also comes with responsibility. You should make sure you have a clear
@@ -112,18 +82,14 @@ Your proposal should include:
 3. A weekly plan outlining your steps to complete your project and including the team member(s) assigned to that task.
 4. A github repo, with all the relevant info about your project
 
-The expected output of this phases include:
-- Create a public repository on Github
-- Upload your proposal and data to that repository. Proposal can be a .md file
-- Submit the link to your repository on Canvas by the deadline
+👉*Expected output* of this phases include:
 
-👉*Expected output:*
+1. Create a public repository on Github
+2. Upload your proposal and data to that repository. Proposal can be a .md file
+3. Submit the link to your repository on Canvas by the deadline
 
-- Create a public repository on GitHub.
-- Upload your proposal and data to the repository (proposal can be a .md file).
-- Submit the repository link on Canvas.
 
-#### **📌Peer Review - Due 25th of March**
+#### **📌Peer Review - Due 04th of May**
 
 Each team will review the proposals of two other teams. We will assign review pairs (see Section 6.3 of this document).
 
@@ -139,35 +105,26 @@ Each team will review the proposals of two other teams. We will assign review pa
 - Create two issues on the repositories of the teams assigned to you.
 - Submit links to the issues on Canvas.
 
-#### **📌Revised Proposal - Due 31st of March**
+#### **📌Revised Proposal - Due 15st of May**
 
 After receiving feedback, update your proposal and make necessary revisions.
 
 👉*Expected output:*
 
 - Commits and comments addressing the issues raised.
-- Submit the final version of the proposal on Canvas (PDF format).
-- Submit links to addressed issues on your repository.
+- (Optional) Revise your proposal and TAs will give you feedback on the new version, but this task is not graded
 
-#### **📌Write-up - Due 10th of April**
+#### **📌Write-up - Due 30th of May**
 
-The write-up consists of three parts:
+Your have a lot more freedom in how you structure your write-up for this project compared to Project 1. This also comes with responsibility. You should make sure you have a clear introduction and a clear conclusion. You should also have other interim section headings that help the reader. Your write-up should be somewhere between 1000 and 2000 words. There is no expectation that you get close to the upper limit, anywhere in that range is fine as long as you have clearly explained yourself. The limits are provided to help you, not to set stressful expectations.
 
-1. **Introduction:** Briefly introduce the dataset and its importance.
-2. **Question 1 Analysis:**
-   - Introduction to the question and relevant dataset components.
-   - Approach: Describe types of plots (boxplot, barplot, etc.) and their relevance.
-   - Analysis: Code snippets and visualizations.
-   - Discussion: Interpretation of results.
-3. **Question 2 Analysis:** Same structure as Question 1.
-4. **Conclusion:** Summary of findings and next steps.
+👉*Expected output* of this phases include:
+- Submit your report on canvas in RmD/ Pdf format
+- Your code for the project should be well documented and reproducible, i.e. we can retrieve the same output which you present through running your code
 
-👉*Expected output:*
 
-- Submit the report on Canvas in Jupyter Notebook and PDF format.
-- Ensure the report is well-documented and reproducible.
 
-#### **📌Presentation - Slides Due 10th of April, Oral Presentation in the Following Week**
+#### **📌Presentation - Slides Due 30th of May, Oral Presentation in the Following Week**
 
 Each team will give an **8-minute presentation**, followed by **Q&A**. The session will last **15 minutes** in total.
 
@@ -182,13 +139,13 @@ Each team will give an **8-minute presentation**, followed by **Q&A**. The sessi
 |----------------------|---------|------------|
 | Proposal            | 10 pts  | 10%        |
 | Revised Proposal    | 10 pts  | 10%        |
-| Peer-review Quality | 10 pts  | 10%        |
-| Write-up           | 35 pts  | 35%        |
+| Peer-review Quality | 5 pts  | 10%        |
+| Write-up           | 40 pts  | 35%        |
 | Presentation       | 35 pts  | 35%        |
 | **Total**          | **100 pts** | **100%** |
 
 The marking scheme will be provided on the Canvas assignment page of each assessment.
-## 6. Group
+## 6. Group (TO BE UPDATED)...
 ### PROJECT01-1 
 - Pham Quoc Cuong
 - Phan Minh Tri
@@ -269,8 +226,3 @@ The marking scheme will be provided on the Canvas assignment page of each assess
 - Pham Minh Hieu
 - Phan Thi Hien Chi
 
-
-
-4. Deliverables
-
-5. Grading
