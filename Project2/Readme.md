@@ -145,84 +145,85 @@ Each team will give an **8-minute presentation**, followed by **Q&A**. The sessi
 | **Total**          | **100 pts** | **100%** |
 
 The marking scheme will be provided on the Canvas assignment page of each assessment.
-## 6. Group (TO BE UPDATED)...
+## 6. Group
+
 ### PROJECT01-1 
-- Pham Quoc Cuong
-- Phan Minh Tri
+- Ta Quang Hieu
+- Le Minh Huyen
 
 ### PROJECT01-2 
-- Le Minh Huyen
-- Vu Tuyet Vy
+- Doan Quang Hung
+- Phan Minh Tri
 
 ### PROJECT01-3 
-- Ta Quang Hieu
+- Mai Tuan Minh
 - Nguyen Tien Dong
 
 ### PROJECT01-4 
-- Doan Quang Hung
+- Tran Trung Duc
 - Ngo Sy Trung
 
 ### PROJECT01-5 
-- Mai Tuan Minh
-- Tran Trung Duc
+- Pham Quoc Cuong
+- Vu Tuyet Vy
 
 ### PROJECT01-6
-- Le Gia Duc
-- Samantha Emma Morris
-- Vo Khoi Thanh Lam
-
-### PROJECT01-7
-- Cao Lam Huy
-- 
-- Nguyen Canh Huy
-
-### PROJECT01-8
-- Thai Minh Dung
-- Tran Khanh Bang
+- Nguyen Tuan Anh
+- Tran Tat Hung
 - Truong Dang Gia Huy
 
-### PROJECT01-9
-- Nguyen Hoang Long
-- Nguyen Tuan Hiep
-- Vu Ai Thanh
-
-### PROJECT01-10
-- Nguyen Nhat Minh
-- Nguyen Truong Tung
-- Nguyen Tung Lam
-
-### PROJECT01-11
-- Can Ha An
-- Dao Chi Tuong
-- Luu Nguyen Chi Duc
-
-### PROJECT01-12
-- Bui Huy Linh Phuc
+### PROJECT01-7
 - Dang Dinh Dang Khoa
-- Ha Minh Dung
+- Nguyen Hoang Long
+- Thai Minh Dung
 
-### PROJECT01-13
-- Thai Ba Hung
-- Tran Le Hai
-- Dang Duc Dat
-
-### PROJECT01-14
-- Ekaterina Balashova
-- Le Nguyen Gia Binh
+### PROJECT01-8
+- Dao Chi Tuong
+- Nguyen Truong Tung
 - Vuong Chi Hao
 
-### PROJECT01-15
-- Nguyen Hoang Son
+### PROJECT01-9
+- Nguyen Mau Hoang Hiep
+- Phan Thi Hien Chi
+- Thai Ba Hung
+
+### PROJECT01-10
+- Ha Minh Dung
+- Tran Khanh Bang
+- Vu Ai Thanh
+
+### PROJECT01-11
+- Le Nguyen Gia Binh
+- Samantha Emma Morris
+- Tran Le Hai
+
+### PROJECT01-12
+- Can Ha An
+- Nguyen Tuan Hiep
+- Pham Minh Hieu
+
+### PROJECT01-13
+- Ekaterina Balashova
 - Tran Hung Dat
-- Tran Tat Hung
+- Vo Khoi Thanh Lam
+
+### PROJECT01-14
+- Chau Minh Khai
+- Dang Duc Dat
+- Nguyen Tung Lam
+
+### PROJECT01-15
+- Nguyen Canh Huy
+- Nguyen Hoang Son
+- Nguyen Nhat Minh
 
 ### PROJECT01-16
-- Chau Minh Khai
-- Nguyen Tuan Anh
+- Bui Huy Linh Phuc
+- Le Gia Duc
 - Ta Viet Thang
 
 ### PROJECT01-17
-- Nguyen Mau Hoang Hiep
-- Pham Minh Hieu
-- Phan Thi Hien Chi
+- Cao Lam Huy
+- Luu Nguyen Chi Duc
+- Trinh Tuan Hung
 
