@@ -4,7 +4,7 @@
 
 ## 1. Project Details
 
-The goal of this project is to apply what you have learnt throughout the semester to solve a very open-ended problem. Students will be assigned in teams, consisting of 3 members per team. In this project, your task is to create something related to data visualization. This is a vague prompt and you will find more info in the deliverables section of this document. The project will be completed over the second half of the semester and will account for 30% of your final score.
+The goal of this project is to apply what you have learnt throughout the semester to solve a very open-ended problem. Students will be assigned in teams, consisting of up to 3 members per team. In this project, your task is to create something related to data visualization. This is a vague prompt and you will find more info in the deliverables section of this document. The project will be completed over the second half of the semester and will account for 30% of your final score.
 
 ## 2. Project Timeline
 
