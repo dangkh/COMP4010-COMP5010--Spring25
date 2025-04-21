@@ -42,7 +42,7 @@ And, of course, your project can be about visualizing a dataset of interest to y
 ### 4.2 Details on Deliverables
 
 
-Write-up - Due 2nd of June
+Write-up - Due 30th of May
 Your have a lot more freedom in how you structure your write-up for this project compared to
 Project 1. This also comes with responsibility. You should make sure you have a clear
 introduction and a clear conclusion. You should also have other interim section headings that
