@@ -8,7 +8,7 @@ The goal of this project is to apply what you have learnt throughout the semeste
 
 ## 2. Project Timeline
 
-- **Week 1 (17/04 - 27/04):** Meet your team, begin brainstorming ideas for your project; Submit your project proposal.
+- **Week 1 (21/04 - 27/04):** Meet your team, begin brainstorming ideas for your project; Submit your project proposal.
 - **Week 2 (27/04 - 04/05):** Provide peer reviews to two other teams as issues on their GitHub repos. Address issues raised on your team’s project repo through explicit commits. Start working on coding, presentation, and report. (remember to take a break on 30/04 and 01/05 :D)
 - **Week 3 (05/05 - 15/05):** Review feedback from the teaching team on your proposal and continue working on deliverables.
 - **Week 4 (16/05 - 30/05):** Finalize your report and presentation, and clean up code files.
