@@ -41,33 +41,6 @@ And, of course, your project can be about visualizing a dataset of interest to y
 
 ### 4.2 Details on Deliverables
 
-
-Write-up - Due 30th of May
-Your have a lot more freedom in how you structure your write-up for this project compared to
-Project 1. This also comes with responsibility. You should make sure you have a clear
-introduction and a clear conclusion. You should also have other interim section headings that
-help the reader. Your write-up should be somewhere between 1000 and 2000 words. There
-is no expectation that you get close to the upper limit, anywhere in that range is fine as long
-as you have clearly explained yourself. The limits are provided to help you, not to set
-stressful expectations.
-The expected output of this phases include:
-- Submit your report on canvas in RmD/ Pdf format
-- Your code for the project should be well documented and reproducible, i.e. we can
-retrieve the same output which you present through running your code
-Presentation - Slides due 2nd of June, Oral Presentation due the following week
-Each team will give a 12-minute presentation, followed by Q&A. We expect each
-presentation + Q&A will last within 20 minutes.
-And of course, this presentation should include a demo of your product if you are building
-dashboard, package, etc.
-The expected output of this phases include:
-- Submit your slides on canvas (pdf or ppt)
-- In-class presentation followed by Q&As
-Group contribution form - Due 2nd of June
-Follow this template, submit a copy of your team contribution on Canvas. Your individual
-score will be weighted based on this document.
-The expected output of this task include:
-- A document detailing your team contribution
-
 #### **📌Proposal - Due 27th of April**
 
 Your proposal should include:
