@@ -112,8 +112,8 @@ Each team will give an **8-minute presentation**, followed by **Q&A**. The sessi
 |----------------------|---------|------------|
 | Proposal            | 10 pts  | 10%        |
 | Revised Proposal    | 10 pts  | 10%        |
-| Peer-review Quality | 5 pts  | 10%        |
-| Write-up           | 40 pts  | 35%        |
+| Peer-review Quality | 5 pts  | 5%        |
+| Write-up           | 40 pts  | 40%        |
 | Presentation       | 35 pts  | 35%        |
 | **Total**          | **100 pts** | **100%** |
 
