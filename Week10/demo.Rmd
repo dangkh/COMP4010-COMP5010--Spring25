@@ -1,0 +1,135 @@
+---
+title: "Untitled"
+output: html_document
+date: "2024-03-19"
+---
+
+```{r}
+library(tidyverse)
+library(scales)
+
+# Load the data from the CSV file
+data <- read_csv("college_data_normalized.csv")
+
+# Filter the data for years 2100 onwards
+filtered_data <- data %>% 
+  filter(year >= 2116)
+
+# Create a dodged bar chart
+college_plot <- ggplot(filtered_data, aes(x = college, y = pct, fill = as.factor(year))) +
+  geom_col(position = position_dodge2(padding = 0.2)) +
+  scale_y_continuous(labels = label_percent()) +
+  labs(
+    title = "Percentage of Enrolled Students by College",
+    subtitle = "From 2120 onwards",
+    x = NULL,
+    y = NULL,
+    fill = NULL
+  ) 
+
+college_plot
+```
+
+
+```{r}
+
+#install.packages('showtext')
+library(showtext)
+font_add_google("Montserrat", "Montserrat")
+
+showtext_auto() 
+
+main_font = "Montserrat"
+
+# vinuni color palette - accent colors
+# based on branding guideline (page 13) - https://policy.vinuni.edu.vn/all-policies/brand-identity-manual/
+vinuni_palette_main <- c("#35426e", "#d2ae6d", "#c83538", "#2e548a")
+vinuni_palette_accents <- c( "#5cc6d0", "#a7c4d2", "#d2d3d5",  "#4890bd", "#0087c3", "#d2ae6d")
+
+#maybe try google palette: https://partnermarketinghub.withgoogle.com/brands/google-assistant/overview/color-palette-and-typography/
+google_palette_main <- c("#EA4335", "#4285F4", "#FBBC04", "#34A853")
+
+#or MIT color palette: https://brand.mit.edu/color
+mit_palette_main <- c("#750014", "#8b959e", "#ff1423", "#000000")
+
+college_plot +
+  scale_fill_manual(values = vinuni_palette_accents) +
+  theme_minimal(
+    base_family = main_font,
+    base_size = 11
+  ) +
+  theme(
+    plot.title.position = "plot",
+    plot.title = element_text(hjust = 0.5, face="bold", colour = vinuni_palette_main[3]),
+    plot.subtitle = element_text(hjust = 0.5, face="bold"),
+    legend.position = "bottom",
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.y = element_line(color = "grey", linewidth = 0.2),
+    panel.grid.minor.y = element_blank(),
+    axis.text = element_text(size = rel(1.0)),
+    axis.text.x = element_text(face="bold", colour = vinuni_palette_main[1]), 
+    axis.text.y = element_text(face="bold", colour = vinuni_palette_main[1]), 
+    legend.text = element_text(size = rel(0.9))
+  )
+
+showtext_auto() 
+```
+
+
+```{r}
+
+# Saving our theme as a function
+theme_vinuni <- function(base_size = 11, base_family = main_font, 
+                         base_line_size = base_size / 22, 
+                         base_rect_size = base_size / 22) {
+  # Base our theme on minimal theme
+  theme_minimal(
+    base_family = base_family,
+    base_size = base_size,
+    base_line_size = base_line_size,
+    base_rect_size = base_rect_size
+  ) +
+  theme(
+    plot.title.position = "plot",
+    plot.title = element_text(hjust = 0.5, face="bold", colour = vinuni_palette_main[3]),
+    plot.subtitle = element_text(hjust = 0.5, face="bold"),
+    legend.position = "bottom",
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.y = element_line(color = "#bbbbbb", linewidth = 0.2),
+    panel.grid.minor.y = element_blank(),
+    axis.text = element_text(size = rel(1.0)),
+    axis.text.x = element_text(face="bold", colour = vinuni_palette_main[1]), 
+    axis.text.y = element_text(face="bold", colour = vinuni_palette_main[1]), 
+    legend.text = element_text(size = rel(0.9))
+  )
+}
+```
+
+```{r}
+college_plot + 
+  scale_fill_manual(values = vinuni_palette_accents) +
+  theme_vinuni()
+```
+
+```{r}
+data |>
+  mutate(
+    college = fct_reorder2(.f = college, .x = year, .y = pct)
+  ) |>
+  ggplot(aes(x = year, y = pct, color = college)) +
+  geom_point() +
+  geom_line() +
+  scale_x_continuous(limits = c(2100, 2120), breaks = seq(2100, 2120, 5)) +
+  scale_y_continuous(labels = label_percent()) +
+  labs(
+    x = "Year",
+    y = "Percent of students admitted",
+    color = "College",
+    title = "Percentage of Enrolled Students by College",
+  ) +
+  theme_vinuni() +
+  theme(legend.position = "right") +
+  scale_color_manual(values = vinuni_palette_main) 
+```
