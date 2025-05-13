@@ -1,0 +1,241 @@
+---
+title: "Week11-AED-EMO-RMarkdown"
+output: html_document
+date: "2025-05-12"
+---
+
+```{r}
+library(tidyverse)
+library(scales)
+# install.packages('WDI')
+library(WDI)
+# install.packages('ggrepel')
+library(ggrepel)
+# install.packages('ggtext')
+library(ggtext)
+```
+```{r}
+indicators <- c("SP.POP.TOTL", "EN.ATM.CO2E.PC","NY.GDP.PCAP.KD")
+# CO2 emissions data is mostly NULL from 2021 onwards...
+wdi_co2_raw <- WDI(country = "all", indicators, extra = TRUE, 
+                   start = 1995, end = 2023)
+```
+
+```{r}
+wdi_clean <- wdi_co2_raw |>
+  filter(region != "Aggregates") |>
+  select(iso2c, iso3c, country, year,
+    population = SP.POP.TOTL,
+    co2_emissions = EN.ATM.CO2E.PC,
+    gdp_per_cap = NY.GDP.PCAP.KD,
+    region, income
+  ) |>
+  filter(population > 200000) 
+```
+
+```{r}
+co2_rankings <- wdi_clean |>
+  # Get rid of all the rows that have missing values in co2_emissions
+  drop_na(co2_emissions) |>
+  # Look at each year individually and rank countries based on their emissions that year
+  mutate(
+    ranking = rank(co2_emissions),
+    .by = year
+  )
+```
+
+
+# Task 1: Prepare data in wide format
+```{r}
+# YOUR CODE HERE
+co2_rankings_wide <- co2_rankings |>
+                      select(iso3c,country,year,region,income,ranking)|>
+                      pivot_wider(names_from = year, values_from = ranking,                        names_prefix ="rank_")
+print(head(co2_rankings_wide, 5))
+print(colnames(co2_rankings_wide))
+```
+
+
+# Task 2: Data wrangling
+```{r}
+# YOUR CODE HERE
+co2_rankings_draw <- co2_rankings_wide |>
+                      mutate(rank_diff = rank_2020 - rank_1995) |>
+                      drop_na(rank_diff) |>
+                      mutate(significant_diff = case_when(
+                        rank_diff <= -30 ~ "Significant decrease",
+                        rank_diff >= 30 ~ "Significant increase",
+                        .default = "Insignificant change"
+                      )) |>
+                      arrange(rank_diff)
+```
+
+
+# Task 3: Scatter plot for changes in CO2 emission rankings between 1995 and 2020
+```{r}
+# YOUR CODE HERE
+
+ggplot(data = co2_rankings_draw, aes(x = rank_1995, y = rank_2020))+
+  geom_point()+
+  labs(
+    title = "Changes in CO2 emission ranking betwwen 1995 and 2020",
+    x = "Rank on 1995", y = "Rank in 2020"
+  )+
+  theme(
+plot.title = element_text(hjust = 0.5),
+plot.subtitle = element_text(hjust = 0.5),
+legend.position = "right"
+)
+
+
+```
+
+
+# Task 4: Lazy way to show change in rank
+```{r}
+# YOUR CODE HERE
+
+ggplot(data = co2_rankings_draw, aes(x = rank_1995, y = rank_2020))+
+  annotate(geom = "segment", x = 0, xend = max(co2_rankings_draw$rank_1995),y = 0, yend = max(co2_rankings_draw$rank_2020))+
+  geom_point()+
+  labs(
+    title = "Changes in CO2 emission ranking betwwen 1995 and 2020",
+    x = "Rank on 1995", y = "Rank in 2020")+
+   theme(
+plot.title = element_text(hjust = 0.5),
+plot.subtitle = element_text(hjust = 0.5),
+legend.position = "right"
+)  
+
+```
+
+
+# Task 5: Highlight significant countries
+```{r}
+# YOUR CODE HERE
+co2_rankings_draw <- co2_rankings_draw |> mutate(sig_change = if_else(abs(rank_diff)>= 32, TRUE, FALSE))
+ggplot(data = co2_rankings_draw, aes(x = rank_1995, y = rank_2020))+
+  annotate(geom = "segment", x = 0, xend = max(co2_rankings_draw$rank_1995),y = 0, 
+           yend = max(co2_rankings_draw$rank_2020))+
+  geom_point(aes(color = significant_diff))+
+  geom_label_repel(
+    data = filter(co2_rankings_draw, sig_change == TRUE),
+    aes(label = country))+
+  labs(
+    title = "Changes in CO2 emission ranking betwwen 1995 and 2020",
+    x = "Rank on 1995", y = "Rank in 2020")+
+  theme(
+plot.title = element_text(hjust = 0.5),
+plot.subtitle = element_text(hjust = 0.5),
+legend.position = "right"
+)  
+
+
+```
+
+
+# Task 6: Additional text annotations
+```{r}
+# YOUR CODE HERE
+
+ggplot(data = co2_rankings_draw, aes(x = rank_1995, y = rank_2020))+
+  annotate(geom = "segment", x = 0, xend = max(co2_rankings_draw$rank_1995),
+           y = 0,yend = max(co2_rankings_draw$rank_2020)
+           )+
+  geom_point(aes(color = significant_diff)
+             )+
+  geom_label_repel( data = filter(co2_rankings_draw, sig_change == TRUE),
+    aes(label = country)
+  )+
+  annotate(geom = "text", x = 120, y = 20, label = "Countries improving"
+  )+
+  annotate(geom = "text", x = 20, y = 180, label = "Countries worsening"
+            )+
+  labs(
+    title = "Changes in CO2 emission ranking betwwen 1995 and 2020",
+    x = "Rank on 1995", y = "Rank in 2020")+
+  theme(
+plot.title = element_text(hjust = 0.5),
+plot.subtitle = element_text(hjust = 0.5),
+legend.position = "right"
+) 
+
+```
+
+
+# Task 7: Using colors to redirect attention
+```{R}
+# YOUR CODE HERE
+ggplot(data = co2_rankings_draw, aes(x = rank_1995, y = rank_2020))+
+  annotate(geom = "segment", x = 0, xend = max(co2_rankings_draw$rank_1995),y = 0, 
+           yend = max(co2_rankings_draw$rank_2020))+
+  geom_point(aes(color = significant_diff))+
+  geom_label_repel(
+    data = filter(co2_rankings_draw, sig_change == TRUE),
+    aes(label = country)
+  )+
+  annotate(
+    geom = "text", x = 180, y = 20, label = "Countries improving"
+  )+
+  annotate(
+    geom = "text", x = 20, y = 180, label = "Countries worsening"
+  )+
+  labs(
+    title = "Changes in CO2 emission ranking betwwen 1995 and 2020",
+    x = "Rank on 1995", y = "Rank in 2020"
+  )+
+  theme(
+plot.title = element_text(hjust = 0.5),
+plot.subtitle = element_text(hjust = 0.5),
+legend.position = "right"
+) +
+  scale_color_manual(values = c("grey","red","blue"))
+
+
+```
+
+
+# Task 8: More geometric annotations
+```{r}
+# YOUR CODE HERE
+ggplot(data = co2_rankings_draw, aes(x = rank_1995, y = rank_2020))+
+  annotate(geom = "segment", x = 0, xend = max(co2_rankings_draw$rank_1995),y = 0, 
+           yend = max(co2_rankings_draw$rank_2020))+
+  geom_point(aes(color = significant_diff))+
+  geom_label_repel(
+    data = filter(co2_rankings_draw, sig_change == TRUE),
+    aes(label = country)
+  )+
+  annotate(
+    geom = "text", x = 170, y = 20, label = "Countries improving"
+  )+
+  annotate(
+    geom = "text", x = 20, y = 180, label = "Countries worsening"
+  )+
+  labs(
+    title = "Changes in CO2 emission ranking betwwen 1995 and 2020",
+    x = "Rank on 1995", y = "Rank in 2020"
+  )+
+  theme(
+plot.title = element_text(hjust = 0.5),
+plot.subtitle = element_text(hjust = 0.5),
+legend.position = "right"
+) +
+  scale_color_manual(values = c("grey","red","blue"))+
+  annotate(
+    'rect', xmin = 0, xmax = 30, ymin = 0, ymax = 30,
+    fill = "green", alpha = 0.25)+
+  annotate(
+    'rect', xmin = 160, xmax = 190, ymin = 160, ymax = 190,
+    fill = "orange", alpha = 0.25)+
+  annotate(
+    'text', x = 40, y = 6, color = "green", label = "Lowest emitters", hjust = 0)+
+  annotate(
+    'text', x = 140, y = 190, color = "orange", label = "Highest emitters", hjust = 0.5, vjust = 1)+
+  annotate(
+    'segment', x = 38, xend = 25, y = 5, yend = 6, color = "green", 
+    arrow = arrow(angle = 15, length = unit(0.5,"lines")))+
+  annotate(
+    'segment', x = 145, xend = 165, y = 180, yend = 175, color = "orange", 
+    arrow = arrow(angle = 10, length = unit(0.5,"lines")))
+```
