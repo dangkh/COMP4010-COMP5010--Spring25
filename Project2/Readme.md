@@ -120,83 +120,94 @@ Each team will give an **8-minute presentation**, followed by **Q&A**. The sessi
 The marking scheme will be provided on the Canvas assignment page of each assessment.
 ## 6. Group
 
-### PROJECT01-1 
+### PROJECT02-1 
 - Ta Quang Hieu
 - Le Minh Huyen
 
-### PROJECT01-2 
+### PROJECT02-2 
 - Doan Quang Hung
 - Phan Minh Tri
 
-### PROJECT01-3 
+### PROJECT02-3 
 - Mai Tuan Minh
 - Nguyen Tien Dong
 
-### PROJECT01-4 
+### PROJECT02-4 
 - Tran Trung Duc
 - Ngo Sy Trung
 
-### PROJECT01-5 
+### PROJECT02-5 
 - Pham Quoc Cuong
 - Vu Tuyet Vy
 
-### PROJECT01-6
+### PROJECT02-6
 - Nguyen Tuan Anh
 - Tran Tat Hung
 - Truong Dang Gia Huy
 
-### PROJECT01-7
+### PROJECT02-7
 - Dang Dinh Dang Khoa
 - Nguyen Hoang Long
 - Thai Minh Dung
 
-### PROJECT01-8
+### PROJECT02-8
 - Dao Chi Tuong
 - Nguyen Truong Tung
 - Vuong Chi Hao
 
-### PROJECT01-9
+### PROJECT02-9
 - Nguyen Mau Hoang Hiep
 - Phan Thi Hien Chi
 - Thai Ba Hung
 
-### PROJECT01-10
+### PROJECT02-10
 - Ha Minh Dung
 - Tran Khanh Bang
 - Vu Ai Thanh
 
-### PROJECT01-11
+### PROJECT02-11
 - Le Nguyen Gia Binh
 - Samantha Emma Morris
 - Tran Le Hai
 
-### PROJECT01-12
+### PROJECT02-12
 - Can Ha An
 - Nguyen Tuan Hiep
 - Pham Minh Hieu
 
-### PROJECT01-13
+### PROJECT02-13
 - Ekaterina Balashova
 - Tran Hung Dat
 - Vo Khoi Thanh Lam
 
-### PROJECT01-14
+### PROJECT02-14
 - Chau Minh Khai
 - Dang Duc Dat
 - Nguyen Tung Lam
 
-### PROJECT01-15
+### PROJECT02-15
 - Nguyen Canh Huy
 - Nguyen Hoang Son
 - Nguyen Nhat Minh
 
-### PROJECT01-16
+### PROJECT02-16
 - Bui Huy Linh Phuc
 - Le Gia Duc
 - Ta Viet Thang
 
-### PROJECT01-17
+### PROJECT02-17
 - Cao Lam Huy
 - Luu Nguyen Chi Duc
 - Trinh Tuan Hung
 
+## 7. Schedule
+
+### Day 1: Tuesday, June 3
+- Team 15
+- Team 4
+- Team 14
+- Team 10
+- Team 2
+- Team 8
+- Team 1
+- Team 12
