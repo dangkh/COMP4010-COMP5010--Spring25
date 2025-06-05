@@ -211,3 +211,15 @@ The marking scheme will be provided on the Canvas assignment page of each assess
 - Team 8
 - Team 1
 - Team 12
+
+### Day 2: Thursday, June 5
+- Team 11 (Samantha Emma Morris)
+- Team 9
+- Team 13
+- Team 6
+- Team 3
+- Team 16
+- Team 5
+- Team 7
+- Team 17
+- Team 11 (Le Nguyen Gia Binh)
