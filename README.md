@@ -1,5 +1,5 @@
 ![Banner](https://www.visualcinnamon.com/img/art/2024/GDQS/GDQS_feature.png)
-# COMP4010/5120 - Data Visualization - Spring 2025
+# COMP4010/5120 - Data Visualization - Spring 2026
 This course teaches techniques and algorithms for creating effective visualizations of large datasets and their analytics, based on principles from graphic design, visual art, perceptual psychology and cognitive science. In addition to participating in class discussions, students will have to complete several short data analysis and visualization design assignments as well as a final project. Data visualization tools such as Tableau or R are considered as lab exercises. Future developments and methods for continual learning are also presented.
 
 ## Prerequisites
@@ -14,16 +14,11 @@ To get started, you will need to install R and RStudio:
 - Set up a Virtual Environment
 - Jupyter 
 
-## Canvas
-
-- [COMP4010 Canvas](https://vinuni.instructure.com/courses/2514)
-- [COMP5120 Canvas](https://vinuni.instructure.com/courses/2529)
-
 ## Homework Problem Sets
-| Weeks | Problem Set | Dataset | Deadline |
+| Weeks | Problem Set | Dataset |
 | --- | --- | --- | --- |
-| Homework1 | [Notes](Homework/Homework1) | [Ikea](Homework/Homework1/ikea_data.csv)| 11/03/2025|
-| Homework2 | [Notes](Homework/Homework2) | [Data](https://github.com/dangkh/COMP4010-COMP5010--Spring25/tree/master/Homework/Homework2)| 18/04/2025|
+| Homework1 | [Notes](Homework/Homework1) | [Ikea](Homework/Homework1/ikea_data.csv)|
+| Homework2 | [Notes](Homework/Homework2) | [Data](https://github.com/dangkh/COMP4010-COMP5010--Spring25/tree/master/Homework/Homework2)|
 | The rest! |
 ## Weekly Exercises (AE)
 
